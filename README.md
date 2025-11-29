@@ -1,20 +1,50 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Aura
 
-# Run and deploy your AI Studio app
+Aura is a digital space shaped by silence, texture, and timeless design.
 
-This contains everything you need to run your app locally.
+Technology should feel like an extension of the natural world, not an interruption. Inspired by the smoothness of river stone, the grain of aged materials, and the quiet of well-crafted objects, Aura creates a calm interface for a noisy world.  
 
-View your app in AI Studio: https://ai.studio/apps/drive/1q6bRxP5HgpMM83XRZXIOy9gis6ozO20f
+Using materials that mature beautifully—sandstone, raw aluminum, organic fibers—Aura builds a tactile connection between your digital life and your physical sanctuary.
 
-## Run Locally
+---
 
-**Prerequisites:**  Node.js
+## ✨ Philosophy
 
+- **Quiet by default**  
+  Aura avoids visual noise and motion that distract. Every element exists with purpose and restraint.
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+- **Organic materiality**  
+  The design language is shaped by natural textures, weathered surfaces, and timeless objects.
+
+- **Digital–physical harmony**  
+  Interfaces should feel as grounded as the world they live in—soft, subtle, and touchable.
+
+- **Tools that age well**  
+  Aura favors simplicity and durability over trends, focusing on experiences that feel better with time.
+
+---
+
+## 🌿 Features
+
+- Calming, material-inspired UI  
+- Minimalist and distraction-free interactions  
+- Smooth, quiet animations  
+- Sensible defaults with room for customization  
+- Built to integrate effortlessly into your own digital sanctuary
+
+---
+
+## 🚀 Getting Started
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/aura.git
+
+# Enter the project
+cd aura
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
