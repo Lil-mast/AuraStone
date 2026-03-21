@@ -38,7 +38,7 @@ Using materials that mature beautifully—sandstone, raw aluminum, organic fiber
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/aura.git
+git clone https://github.com/your-username/aurastone.git
 
 # Enter the project
 cd aura
