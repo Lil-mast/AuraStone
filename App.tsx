@@ -1,8 +1,9 @@
 /**
  * @license
  * SPDX-License-Identifier: Apache-2.0
-*/
+ */
 
+'use client';
 
 import React, { useState } from 'react';
 import Navbar from './components/Navbar';

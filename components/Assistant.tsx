@@ -5,7 +5,7 @@
 
 import React, { useState, useRef, useEffect } from 'react';
 import { ChatMessage } from '../types';
-import { sendMessageToGemini } from '../services/geminiService';
+import { sendConciergeMessage } from '../services/conciergeClient';
 
 const Assistant: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -32,7 +32,7 @@ const Assistant: React.FC = () => {
 
     try {
       const history = messages.map(m => ({ role: m.role, text: m.text }));
-      const responseText = await sendMessageToGemini(history, userMsg.text);
+      const responseText = await sendConciergeMessage(history, userMsg.text);
       
       const aiMsg: ChatMessage = { role: 'model', text: responseText, timestamp: Date.now() };
       setMessages(prev => [...prev, aiMsg]);

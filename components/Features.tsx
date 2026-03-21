@@ -38,7 +38,7 @@ const Features: React.FC = () => {
              Silence by default.
            </h3>
            <p className="text-lg text-[#A8A29E] font-light leading-relaxed mb-12 max-w-md">
-             Our devices respect your attention. No blinking lights, no intrusive notifications. Just calm utility when you need it, and a beautiful object when you don't.
+             Our devices respect your attention. No blinking lights, no intrusive notifications. Just calm utility when you need it, and a beautiful object when you do not.
            </p>
         </div>
         <div className="relative h-[500px] lg:h-auto overflow-hidden">

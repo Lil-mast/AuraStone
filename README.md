@@ -36,15 +36,24 @@ Using materials that mature beautifully—sandstone, raw aluminum, organic fiber
 
 ## 🚀 Getting Started
 
+Stack: **Next.js** (App Router) + **React** + **TypeScript**, with **Tailwind CSS** (build-time). The AI concierge calls **Hugging Face Inference** from a **server-only** route (`/api/chat`), so API keys are not bundled into the browser.
+
 ```bash
 # Clone the repository
 git clone https://github.com/your-username/aurastone.git
 
 # Enter the project
-cd aura
+cd aurastone
 
 # Install dependencies
 npm install
 
-# Start development server
+# Copy env template and add your Hugging Face token (see .env.example)
+# HUGGINGFACE_API_KEY=hf_...
+
+# Start development server (http://localhost:3000)
 npm run dev
+
+# Production build
+npm run build && npm start
+```
